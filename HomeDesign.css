@@ -3,7 +3,8 @@ body{
 }
 
 .tab{
-    height: 50px;
+    height: 100px;
     width: auto;
     background-color: rgb(33, 33, 40);
+    color: aliceblue;
 }

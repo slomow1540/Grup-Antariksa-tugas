@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+}
+
+.tab{
+    height: 50px;
+    width: auto;
+    background-color: rgb(33, 33, 40);
+}

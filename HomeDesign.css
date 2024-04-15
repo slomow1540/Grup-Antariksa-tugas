@@ -54,13 +54,13 @@ div.tab a,b{
 
 .menu {
         background-image: linear-gradient(90deg, #66C0F4, #417a9b);
-        opacity: 0.8;
+        
 }
 .menu ul{
     display: flex;
     flex-direction: row;
     margin: 7px;
-    width: 900px;
+    width: 925px;
     height: 20px;
     align-content: center;
     color: #e5e5e5;
@@ -92,11 +92,27 @@ div.tab a,b{
     padding: 0px 6px;
     width: 145px;
     font-style: italic;
-    opacity: 0.8;
-    font-weight: lighter
+    font-weight: lighter;
+    opacity: 0.5;
 }
 #search img{
     width: 19px;
     height: 19px;
     float: right;
+}
+
+#feature{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+.picture1{
+    align-content: center;
+    width: 940px;
+    height: 353px;
+    background-color: yellow;
+    border: 3px solid red;
+    
 }

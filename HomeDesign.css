@@ -6,17 +6,97 @@ body{
     background-image: linear-gradient(to top,#181831, #2b2756);
 }
 
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    padding: 0px;
+    margin: 0px auto;
+}
+
 .tab{
     height: 150px;
     width: auto;
+    align-content: center;
     background-color: rgb(33, 33, 40);
     color: aliceblue;
 }
+
 div.tab a,b{
     color: aliceblue;
     font-size: larger;
     text-decoration: none;
 }
+
 .gap{
     width: 50px;
+}
+
+.content{
+    height: auto;
+    width: 1000px;
+}
+
+.content input#wish {
+    float: right;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color:#59BF40;
+    color: whitesmoke;
+    border: #59BF40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+  }
+
+.menu {
+        background-image: linear-gradient(90deg, #66C0F4, #417a9b);
+        opacity: 0.8;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    margin: 7px;
+    width: 900px;
+    height: 20px;
+    align-content: center;
+    color: #e5e5e5;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0px 0px 10px 20px;
+}
+
+#space{
+    width: 130px;
+    height: 20px;
+}
+
+#search{
+    background-image: none;
+    background-color: #316282;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+    color: black;
+    margin-bottom: 0px;
+    outline: none;
+    height: 23px;
+    padding: 0px 6px;
+    width: 145px;
+    font-style: italic;
+    opacity: 0.8;
+    font-weight: lighter
+}
+#search img{
+    width: 19px;
+    height: 19px;
+    float: right;
 }

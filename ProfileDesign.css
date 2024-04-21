@@ -20,7 +20,6 @@ video{
 
 .main_content{
     position: relative;
-    display: flex;
     margin: auto;
     width: 1000px;
     height: 1080px;
@@ -30,19 +29,34 @@ video{
     background: rgb(19,17,34);
     background: linear-gradient(39deg, rgba(19,17,34,0.9) 0%, rgba(37,25,40,0.9) 40%, rgba(18,33,36,0.9) 68%, rgba(25,26,31,1) 100%);
 }
+
+.top-part{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.middle-part{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.profiles{
+    width:500px;
+    height: 200px;
+}
 .descriptionbox{
     width: 300px;
     height: 100px;
     position: relative;
-    text-align: center;
-    right: 65px;
-    top: 50px;
+    text-align: left;
+    right: -180px;
+    top: -10px;
 }
 
 .status{
+    right: 100px;
     height: 200px;
+    flex-shrink: 3;
     width: 500px;
-    border: 1px solid rgb(255, 0, 0);
     text-align: center;
     color: gray;
 
@@ -53,9 +67,27 @@ video{
     width: 360px;
     margin-left: 50px;
     background: rgb(29,56,28);
+    border-radius: 5px;
     background: linear-gradient(39deg, rgba(29,56,28,0.2) 0%, rgba(32,50,82,0.2) 50%, rgba(70,37,37,0.2) 100%);
+    text-align: left;
+    color: white;
+}
+
+.achievementchld{
+    margin-left: 110px;
+    margin-top: -90px;
+    height: 100px;
+    width: 200px;
+}
+
+.recentactivity{
+    height: 60px;
+    width: 950px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 5px;
     text-align: center;
-    color: gray;
+    background: linear-gradient(39deg, rgba(29,56,28,0.6) 0%, rgba(32,50,82,0.6) 50%, rgba(70,37,37,0.6) 100%); 
 }
 
 .profimage{

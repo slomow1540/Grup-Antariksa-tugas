@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    overflow-x: hidden
+}
+
+video{
+    position: absolute;
+    object-fit: cover;
+    overflow: hidden;
+    top: 150px; 
+    left: -220px; 
+    right: 0; 
+    bottom: 0; 
+    margin: 0;
+    min-width: 50%;
+    min-height: 50%;
+    overflow: hidden;
+    display: block;
+  }
+
+.main_content{
+    position: relative;
+    display: flex;
+    margin: auto;
+    width: 1000px;
+    height: 1080px;
+    color: white;
+    border: 1px solid rgb(33, 33, 40);
+    box-sizing: border-box;
+    background: rgb(19,17,34);
+    background: linear-gradient(39deg, rgba(19,17,34,0.9) 0%, rgba(37,25,40,0.9) 40%, rgba(18,33,36,0.9) 68%, rgba(25,26,31,1) 100%);
+}
+.descriptionbox{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    text-align: center;
+    right: 65px;
+    top: 50px;
+}
+
+.status{
+    height: 200px;
+    width: 500px;
+    border: 1px solid rgb(255, 0, 0);
+    text-align: center;
+    color: gray;
+
+}
+
+.achievement{
+    height: 100px;
+    width: 360px;
+    margin-left: 50px;
+    background: rgb(29,56,28);
+    background: linear-gradient(39deg, rgba(29,56,28,0.2) 0%, rgba(32,50,82,0.2) 50%, rgba(70,37,37,0.2) 100%);
+    text-align: center;
+    color: gray;
+}
+
+.profimage{
+    margin: 15px;
+    position: relative;
+    text-align: left;
+}
+
+.tab{
+    height: 150px;
+    width: auto;
+    align-content: center;
+    background-color: rgb(33, 33, 40);
+    color: aliceblue;
+}

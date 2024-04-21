@@ -6,6 +6,10 @@ body{
     background-image: linear-gradient(to top,#181831, #2b2756);
 }
 
+a{
+    text-decoration: none;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +39,7 @@ div.tab a,b{
 
 .content{
     height: auto;
-    width: 1158.4px;
+    width: 1000px;
 }
 
 .content a {
@@ -50,8 +54,6 @@ div.tab a,b{
     border: #59BF40;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
-    text-decoration: none;
-    border: 2px;
   }
 
 .menu {
@@ -88,8 +90,6 @@ div.tab a,b{
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
     color: black;
-    margin-bottom: 0px;
-    outline: none;
     height: 23px;
     padding: 0px 6px;
     width: 145px;
@@ -105,33 +105,67 @@ div.tab a,b{
 }
 
 #feature{
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: 15px;
-}
-
-.arrowleft{
-    font-size: 50px;
-    color: white;
-    height: 36px;
-    width: 23px;
-    background-color: rgba(0,0,0,0.3);
-    font-weight: bold;
-}
-
-.arrowright{
-    font-size: 50px;
-    color: white;
-    height: 36px;
-    width: 23px;
-    background-color: rgba(0,0,0,0.3);
-    font-weight: bold;
+    height: 22px;
+    width: 940px;
+    font-weight: normal;
+    padding-top: 25px;
+    font-family: "Motiva Sans", Sans-serif;
+    color: #fff;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    margin: 0 0 10px;
 }
 
 .picture1{
     align-content: center;
-    border: 1px solid red;
-    width: 920px;
+    width: 616px;
     height: 353px;
+    background-image: url('Images/overcooked.jpg');
+}
+
+.arrowleft {
+    margin-top: 122px;
+    display: inline-block;
+    width: 45px;
+    height: 108px;
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%)
+}
+
+.arrowleft div{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    width: 23px;
+    height: 36px;
+    cursor: pointer;
+    background-position-x: 23px;
+    background: url('Images/arrows.png') right;
+    background-repeat: no-repeat;
+}
+
+.arrowleft:hover{
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
+}
+
+.arrowright {
+    margin-top: 122px;
+    display: inline-block;
+    width: 45px;
+    height: 108px;    
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
+
+}
+
+.arrowright div{
+    padding-top: 36px;
+    padding-bottom: 36px;
+    width: 23px;
+    height: 36px;
+    cursor: pointer;
+    background-position-x: 23px;
+    background: url('Images/arrows.png') left;
+    background-repeat: no-repeat;
+}
+
+.arrowright:hover{
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 0.3) 95%);
 }

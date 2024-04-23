@@ -1,6 +1,7 @@
 body{
     margin: 0;
-    overflow-x: hidden
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 video{
@@ -77,7 +78,7 @@ video{
     margin-left: 110px;
     margin-top: -90px;
     height: 100px;
-    width: 200px;
+    width: 230px;
 }
 
 .recentactivity{
@@ -102,4 +103,13 @@ video{
     align-content: center;
     background-color: rgb(33, 33, 40);
     color: aliceblue;
+}
+
+div.tab a,b{
+    color: aliceblue;
+    font-size: larger;
+    text-decoration: none;
+}
+.gap{
+    width: 50px;
 }

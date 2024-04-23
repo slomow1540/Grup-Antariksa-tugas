@@ -113,3 +113,24 @@ div.tab a,b{
 .gap{
     width: 50px;
 }
+
+.Content{
+    height: 300px;
+    width: 870px;
+    border:  2px solid rgba(32, 33, 66, 0.5);
+    background: linear-gradient(39deg, rgba(53, 88, 52, 0.2) 0%, rgba(61, 82, 116, 0.2) 50%, rgba(99, 65, 65, 0.2) 100%);
+    margin-top: 50px;
+    margin-left: 40px;
+    border-radius: 5px;
+}
+
+.recentgames{
+    height: 700px;
+    width: 950px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(16,32,15);
+    background: linear-gradient(39deg, rgba(16,32,15,0.85) 0%, rgba(20,31,50,0.85) 50%, rgba(48,26,26,0.85) 100%);
+}

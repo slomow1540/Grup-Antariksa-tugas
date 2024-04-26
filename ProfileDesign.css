@@ -119,15 +119,31 @@ div.tab a,b{
 .Content{
     height: 300px;
     width: 870px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border:  2px solid rgba(32, 33, 66, 0.5);
     background: linear-gradient(39deg, rgba(53, 88, 52, 0.2) 0%, rgba(61, 82, 116, 0.2) 50%, rgba(99, 65, 65, 0.2) 100%);
     margin-top: 50px;
     margin-left: 40px;
     border-radius: 5px;
 }
+.hiderecentgamesScroll{
+    overflow: hidden;
+    height: 750px;
+    width: 950px;
+    
+}
+
 
 .recentgames{
-    height: 700px;
+    height: 750px;
+    overflow-y: scroll;
+    padding-right: 17px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 950px;
     margin-top: 50px;
     margin-left: 25px;
@@ -138,7 +154,7 @@ div.tab a,b{
 }
 
 .recentgamesimage{
-    margin-left: -390px;
+    margin-left: 10px;
     margin-top: 10px;
     border-radius: 5px;
 }
@@ -146,6 +162,16 @@ div.tab a,b{
 .recentgamestitle{
     width: 200px;
     height: 50px;
-    border: 1px solid red;
+    margin-left: -10px;
     margin-bottom: 200px;
+}
+
+.Content h3{
+    margin-left: -180px; 
+    margin-top: 80px;
+}
+
+.Content p{
+    margin-left: -80px; 
+    margin-top: 110px;
 }

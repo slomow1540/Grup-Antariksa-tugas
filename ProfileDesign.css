@@ -160,18 +160,21 @@ div.tab a,b{
 }
 
 .recentgamestitle{
-    width: 200px;
+    width: 380px;
     height: 50px;
-    margin-left: -10px;
+    margin-left: 10px;
     margin-bottom: 200px;
+    text-align: left;
 }
 
 .Content h3{
-    margin-left: -180px; 
+    margin-left: -380px; 
     margin-top: 80px;
+    text-align: left;
 }
 
 .Content p{
     margin-left: -80px; 
     margin-top: 110px;
+    text-align: left;
 }

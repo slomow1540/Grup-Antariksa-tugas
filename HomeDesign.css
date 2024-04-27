@@ -120,7 +120,7 @@ div.tab a,b{
     align-content: center;
     width: 616px;
     height: 353px;
-    background-image: url('Images/overcooked.jpg');
+    background-image: url('Images/Game0.jpg');
 }
 
 .arrowleft {
@@ -128,22 +128,26 @@ div.tab a,b{
     display: inline-block;
     width: 45px;
     height: 108px;
-    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%)
+    background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
 }
 
-.arrowleft div{
-    padding-top: 36px;
-    padding-bottom: 36px;
-    width: 23px;
-    height: 36px;
-    cursor: pointer;
-    background-position-x: 23px;
-    background: url('Images/arrows.png') right;
+
+.arrowleft div {
+    margin: 38px 11px;
+    width: 40px;   
+    height: 50px;
+    background: url('Images/left-arrow.png');
     background-repeat: no-repeat;
 }
 
 .arrowleft:hover{
     background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
+}
+
+.description{
+    border: 3px solid yellow;
+    width: 314px;
+    height: 353px;
 }
 
 .arrowright {
@@ -152,20 +156,24 @@ div.tab a,b{
     width: 45px;
     height: 108px;    
     background: linear-gradient( to right, rgba( 0, 0, 0, 0) 5%,rgba( 0, 0, 0, 0.3) 95%);
-
 }
 
 .arrowright div{
-    padding-top: 36px;
-    padding-bottom: 36px;
-    width: 23px;
-    height: 36px;
+    margin: 38px 11px;
+    width: 40px;   
+    height: 50px;
     cursor: pointer;
-    background-position-x: 23px;
-    background: url('Images/arrows.png') left;
+    background: url('Images/right-arrow.png');
     background-repeat: no-repeat;
 }
 
 .arrowright:hover{
     background: linear-gradient( to right, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 0.3) 95%);
+}
+
+div.steam {
+    width: auto;
+    height: 181.6px;
+    background-color: #171a21;
+    margin-right: 15px;
 }

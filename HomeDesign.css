@@ -116,14 +116,24 @@ div.tab a,b{
     margin: 0 0 10px;
 }
 
+.utama{
+    width: 978px;
+    height: 380px;
+    background: url('Images/bluegradient.png') bottom center;
+    padding: 20px 2%;
+    background-repeat: no-repeat;
+}
+
 .picture1{
     align-content: center;
     width: 616px;
     height: 353px;
+    z-index: 3;
     background-image: url('Images/Game0.jpg');
+    background-repeat: no-repeat;
 }
 
-.arrowleft {
+.arrowleft{
     margin-top: 122px;
     display: inline-block;
     width: 45px;
@@ -132,8 +142,8 @@ div.tab a,b{
 }
 
 
-.arrowleft div {
-    margin: 38px 11px;
+.arrowleft div{
+    margin: 40px 10px;
     width: 40px;   
     height: 50px;
     background: url('Images/left-arrow.png');
@@ -145,9 +155,10 @@ div.tab a,b{
 }
 
 .description{
-    border: 3px solid yellow;
+    background-image: url('Images/background.jpg');
     width: 314px;
-    height: 353px;
+    height: 354px;
+    background-repeat: no-repeat;
 }
 
 .arrowright {
@@ -159,8 +170,8 @@ div.tab a,b{
 }
 
 .arrowright div{
-    margin: 38px 11px;
-    width: 40px;   
+    margin: 40px 10px;
+    width: 40px;
     height: 50px;
     cursor: pointer;
     background: url('Images/right-arrow.png');
@@ -171,9 +182,111 @@ div.tab a,b{
     background: linear-gradient( to right, rgba( 171, 218, 244, 0) 5%,rgba( 171, 218, 244, 0.3) 95%);
 }
 
-div.steam {
+.change{
+    text-align: center;
+}
+
+.change div {
+	display: inline-block;
+	margin: 12px 2px;
+	width: 15px;
+	height: 9px;
+	border-radius: 2px;
+	transition: background-color 0.2s;
+	background-color: hsla(202,60%,100%,0.2);
+	cursor: pointer;
+}
+
+.change div.focus{
+    opacity: 1;
+    pointer-events: auto;
+    background-color: hsla(202,60%,100%,0.4);
+    transition: opacity 400ms;
+}
+
+div.atas{
+    background-position: center;
+    height: 200px;
+    background-image: url('Images/steam.png');
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+div.atas #text_biru{
+    text-align: center;
+    margin-top: 150px;
+    font-weight: normal;
+    font-size: 24px;
+    color: #67c1f5;
+}
+
+div.atas div{
+    text-align: center;
+    color: #9099a1;
+    font-size: 13px;
+}
+
+.bawah{
+    height: 105px;
     width: auto;
-    height: 181.6px;
+    align-content: center;
+    padding: 16px 0 60px 0;
     background-color: #171a21;
-    margin-right: 15px;
+    color: aliceblue;
+    margin: 0;
+}
+
+.isi{
+    padding-top: 16px;
+    width: 940px;
+    height: 105px;
+    margin: 0 auto;
+}
+
+.garis{
+    width: 940px;
+    height: 8px;
+    border-top: 1px solid #363c44;
+}
+
+.isi div{
+    color:#8f98a0;
+    font-size: 12px;
+    float: left;
+    margin-left: 10px;
+    line-height: 15px;
+}
+
+.isi div a{
+    color: #C6D4DF;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.isi div a:hover{
+    color: white;
+}
+
+.isi .logo_kiri{
+    float: left;
+}
+
+.isi .logo_kanan{
+    float: right;
+}
+
+#credit{
+    display: flex;
+    color: #c6d4df;
+    font-size: 13px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#credit a{
+    display: flex;
+}
+#credit a:hover{
+    cursor: pointer;
+    color: white;
 }

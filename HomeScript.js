@@ -1,16 +1,20 @@
-const yes = true
+let yes = true
 const contents = ["Overcooked","Pico Park","Player Unknown Battle Ground","Terraria","Resident Evil 4"];
 for (let i = 0; i < 5; i++) {
+  const a = document.createElement("a");
   const item = document.createElement("div");
   item.classList.add("gameitem");
   if (yes == true){
     item.classList.add("active");
-    yes == false
+    yes = false;
   }
   const images = document.createElement("img");
   images.classList.add("recentgamesimage");
   images.setAttribute( "height", "350px" );
   images.setAttribute( "width", "550px" );
+  let gamelink = "gamehtmls/Game"+i+".html";
+  a.setAttribute("target","_self")
+  a.setAttribute("href",gamelink)
   let game = "Images/Game" + i + ".jpg";
   images.setAttribute("src",game);
   const description = document.createElement("div"); 
@@ -25,7 +29,8 @@ for (let i = 0; i < 5; i++) {
   description.appendChild(desc)
   item.appendChild(images)
   item.appendChild(description)
-  div.appendChild(item); 
+  a.appendChild(item)
+  div.appendChild(a); 
 }
 
 const slides = document.querySelectorAll(".gameitem")

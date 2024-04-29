@@ -23,7 +23,7 @@ for (let i = 0; i < 5; i++) {
   const title = document.createElement("h1");
   const desc = document.createElement("p");
   title.innerHTML=contents[i];
-  desc.innerHTML="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam culpa quis quo obcaecati vitae qui consequuntur ad optio nobis nemo, cupiditate veniam ipsum voluptatem dolorem omnis laborum porro consequatur eum accusantium atque temporibus recusandae. Commodi porro quod nam, mollitia adipisci sapiente fugiat, laborum vel beatae aperiam voluptatem explicabo soluta quam.";
+  desc.innerHTML="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam culpa quis quo obcaecati vitae qui consequuntur ad optio nobis nemo, cupiditate veniam ipsum voluptatem dolorem omnis laborum porro consequatur eum accusantium atque temporibus recusandae. Commodi porro quod nam, mollitia adipisci sapiente fugiat, laborum vel beatae aperiam voluptatem explicabo soluta quam.","hai";
   const div = document.querySelector(".carousel");
   description.appendChild(title)
   description.appendChild(desc)

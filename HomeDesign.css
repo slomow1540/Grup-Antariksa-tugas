@@ -11,6 +11,7 @@ a{
 }
 
 #container {
+    z-index: 1;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -38,6 +39,7 @@ div.tab a,b{
 }
 
 .content{
+    z-index: 1;
     height: auto;
     width: 1000px;
 }
@@ -57,7 +59,7 @@ div.tab a,b{
   }
 
 .menu {
-        background-image: linear-gradient(90deg, #66C0F4, #417a9b);
+    background-image: linear-gradient(90deg, #66C0F4, #417a9b);
         
 }
 .menu ul{
@@ -70,7 +72,7 @@ div.tab a,b{
     color: #e5e5e5;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;  
+    font-weight: bolder; 
 }
 
 .menu ul li{
@@ -145,8 +147,6 @@ div.tab a,b{
     background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
 }
 
-
-
 .arrowright {
     margin-top: 122px;
     display: inline-block;
@@ -178,14 +178,12 @@ div.tab a,b{
 	width: 15px;
 	height: 9px;
 	border-radius: 2px;
-	transition: background-color 0.2s;
 	background-color: hsla(202,60%,100%,0.2);
 }
 
 .change div.focus{
     opacity: 1;
     background-color: hsla(202,60%,100%,0.4);
-    transition: opacity 400ms;
 }
 
 div.atas{
@@ -311,7 +309,7 @@ div.atas div{
     position: relative;
     top: -20px;
     width: 270px;
-    height:300px;
+    height: 300px;
     margin-left: 10px;
 }
 

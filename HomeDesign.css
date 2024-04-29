@@ -124,15 +124,6 @@ div.tab a,b{
     background-repeat: no-repeat;
 }
 
-.picture1{
-    align-content: center;
-    width: 616px;
-    height: 353px;
-    z-index: 3;
-    background-image: url('Images/Game0.jpg');
-    background-repeat: no-repeat;
-}
-
 .arrowleft{
     margin-top: 122px;
     display: inline-block;
@@ -154,12 +145,7 @@ div.tab a,b{
     background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
 }
 
-.description{
-    background-image: url('Images/background.jpg');
-    width: 314px;
-    height: 354px;
-    background-repeat: no-repeat;
-}
+
 
 .arrowright {
     margin-top: 122px;
@@ -194,12 +180,10 @@ div.tab a,b{
 	border-radius: 2px;
 	transition: background-color 0.2s;
 	background-color: hsla(202,60%,100%,0.2);
-	cursor: pointer;
 }
 
 .change div.focus{
     opacity: 1;
-    pointer-events: auto;
     background-color: hsla(202,60%,100%,0.4);
     transition: opacity 400ms;
 }
@@ -289,4 +273,51 @@ div.atas div{
 #credit a:hover{
     cursor: pointer;
     color: white;
+}
+
+.carousel{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.gameitem{
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 350px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image: url('Images/background.jpg');
+    width: 400px;
+    height: 350px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.description h1{
+    width: 270px;
+    height: 100px;
+    margin-left: 10px;
+}
+
+.description p{
+    position: relative;
+    top: -20px;
+    width: 270px;
+    height:300px;
+    margin-left: 10px;
+}
+
+.carousel div.active {
+    display: flex;
+}
+.carousel div {
+    display: none;
 }

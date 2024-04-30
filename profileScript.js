@@ -1,5 +1,5 @@
 let number = 0;
-const contents = [["Overcooked","100"],["Pico Park","123"],["Player Unknown Battle Ground","233"],["Terraria","312"],["Resident Evil 4","519"]];
+const contents = [["Overcooked","100"],["PICO PARK","123"],["Player Unknown Battle Ground","233"],["Terraria","312"],["Resident Evil 4","519"]];
 for (let i = 0; i < 5; i++) {
   const item = document.createElement("div");
   const title = document.createElement("h2");

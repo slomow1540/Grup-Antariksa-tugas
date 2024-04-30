@@ -1,5 +1,5 @@
 let yes = true
-const contents = ["Overcooked","Pico Park","Player Unknown Battle Ground","Terraria","Resident Evil 4"];
+const contents = ["Overcooked","PICO PARK","Player Unknown Battle Ground","Terraria","Resident Evil 4"];
 for (let i = 0; i < 5; i++) {
   const a = document.createElement("a");
   const item = document.createElement("div");
@@ -23,7 +23,7 @@ for (let i = 0; i < 5; i++) {
   const title = document.createElement("h1");
   const desc = document.createElement("p");
   title.innerHTML=contents[i];
-  desc.innerHTML="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam culpa quis quo obcaecati vitae qui consequuntur ad optio nobis nemo, cupiditate veniam ipsum voluptatem dolorem omnis laborum porro consequatur eum accusantium atque temporibus recusandae. Commodi porro quod nam, mollitia adipisci sapiente fugiat, laborum vel beatae aperiam voluptatem explicabo soluta quam.","hai";
+  desc.innerHTML="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolorum sunt nostrum non ea nihil sapiente repellendus explicabo iste maxime sed ipsam autem eligendi molestias itaque rem, voluptate dignissimos culpa velit fugit soluta quod ipsa. Quisquam mollitia aut dicta suscipit optio voluptate voluptatibus nisi. Corrupti commodi repellendus aperiam porro molestias.";
   const div = document.querySelector(".carousel");
   description.appendChild(title)
   description.appendChild(desc)

@@ -7,14 +7,18 @@
     <body>
         <link rel="stylesheet" type="text/css" href="HomeDesign.css">
             <div class="tab">
-                <table>
+                <table class="profil">
                     <tr>
-                        <td><img src="Images/profilepics.jpg" width="50px" height="50px" style="margin: 10px 10px;position:lef"></td>
-                        <td><b style="position:relative;bottom: 15px;font-size: large;">Antariksa</b></td>
-                        <td><b style="position: relative;top:10px;right:90px;font-size: small;color: rgba(255, 255, 255, 0.707);">Rp 100.000,00</b></td>
+                        <td style="color: #b8b6b4;"><a href="Profile.html">&ensp;Antariksa</a></td>
+                        <td><a href="Profile.html"><img src="Images/profilepics.jpg" width="50px" height="50px"></a></td>
                     </tr>
                     <tr>
-                        <td colspan="3"></td>
+                        <td style="position: absolute;right: 0;padding-right: 60px;color: #b8b6b4;font-size: small;">Rp 100 000</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><img src="Images/logo_steam.svg" style="margin: 10px 10px;position:lef;padding-left: 30px;padding-right: 250px;" width="175px" height="45px"></td>
                         <td><a href="Home.html" target="_self"><b>STORE</b></a></td>
                         <td class="gap"></td>
                         <td><a href="Profile.html" target="_self"><b>PROFILE</b></a></td>
@@ -23,16 +27,17 @@
                     </tr>               
                 </table>
             </div>
+
             <main id="container">
                 <div class="content"><a href="Wishlist.html">Wishlist</a></div>
                 <div class="menu">
                     <ul>
-                        <li>Your Store</li>
-                        <li>New & Noteworthy</li>
-                        <li>Categories</li>
-                        <li>Points Shop</li>
-                        <li>News</li>
-                        <li>Labs</li>
+                        <li><a href="#">Your Store</a></li>
+                        <li><a href="#">New & Noteworthy</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="#">Points Shop</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Labs</a></li>
                         <li id="space"></li>
                         <li id="search"><img src="Images/search_icon_btn.png" style="margin-top: 1px;">search</li>
                     </ul>
@@ -52,7 +57,7 @@
                     </table>
                     <div class="change">
                         <div class="focus"></div>
-                        <div ></div>
+                        <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
@@ -103,6 +108,10 @@
                     </div>
                 </div>
             </nav>
+
+            <div class="kategori">
+
+            </div>
         </div>
         <script src="HomeScript.js"></script>
     </body>

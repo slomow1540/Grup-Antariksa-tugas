@@ -72,6 +72,8 @@ div.tab a,b{
 }
 
 .ProfileWishlist{
+    width: 1000px;
+    height: 150px ;
     display: flex;
     align-items: center;
     font-family: "Motiva Sans", Sans-serif;
@@ -79,10 +81,11 @@ div.tab a,b{
     top: 5;
     left: 0;
 }
-
+    
 .ProfileWishlist img{
     padding-right: 10px;
 }
+
 .ProfileWishlist h2{
     color: white;
     font-size: 26px;
@@ -92,11 +95,30 @@ div.tab a,b{
 }
 
 .item{
+    display: flex;
     width: 1000px;
     height: 150px ;
-    background: linear-gradient(39deg, rgba(29,56,28,0.6) 0%, rgba(32,50,82,0.6) 50%, rgba(70,37,37,0.6) 100%);
-    display: flex;
+    background: rgba(64, 81, 99, 0.9);
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.itemkiri img{
+    width: 200px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.tulisan h2{
+    position: relative;
+    width: 750px;
+    height: 30px;
+}
+
+.added{
+    position: relative;
+    float: right;
+    margin-right: 20px;
 }
 
 .bawah{

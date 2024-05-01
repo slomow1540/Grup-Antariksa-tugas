@@ -323,7 +323,7 @@ div.atas div{
 
 .description h1{
     width: 270px;
-    height: 100px;
+    height: 35px;
     margin-left: 10px;
 }
 
@@ -331,8 +331,42 @@ div.atas div{
     position: relative;
     top: -20px;
     width: 270px;
-    height: 300px;
+    height: 200px;
     margin-left: 10px;
+}
+
+.descriptioncategory{
+    bottom: 5px;
+    top: -30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    background: linear-gradient(39deg, rgba(53, 88, 52, 0.2) 0%, rgba(61, 82, 116, 0.2) 50%, rgba(99, 65, 65, 0.2) 100%);
+}
+
+.descriptioncategory h4{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+
+.descriptioncategory h5{
+    margin: 5px;
+}
+
+.descriptiontags{
+    display: flex;
+    flex-direction: row;
+}
+
+.descriptiontags a{
+    color: rgb(67, 230, 230);
 }
 
 .carousel div.active {

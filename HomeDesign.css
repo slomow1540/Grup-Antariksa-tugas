@@ -343,3 +343,11 @@ div.atas div{
 .carousel div {
     display: none;
 }
+
+.utama{
+    width: 978px;
+    height: 380px;
+    background: url('Images/bluegradient.png') bottom center;
+    padding: 20px 2%;
+    background-repeat: no-repeat;
+}

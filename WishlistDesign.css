@@ -6,6 +6,18 @@ body{
     background-image: linear-gradient(to top,#181831, #2b2756);
     color: white;
 }
+a{
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 1000px;
+    padding: 0px;
+    margin: 0px auto;
+}
 .tab{
     height: 150px;
     width: auto;
@@ -19,6 +31,7 @@ div.tab a,b{
     font-size: larger;
     text-decoration: none;
 }
+
 .gap{
     width: 50px;
 }
@@ -39,7 +52,32 @@ div.tab a,b{
     cursor: pointer;
 }
 
+.content{
+    height: auto;
+    width: 1000px;
+}
 
+.content a {
+    float: right;
+    margin: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color:#59BF40;
+    color: whitesmoke;
+    border: #59BF40;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.wishlist{
+    display: flex;
+}
+
+.wishlist a{
+    color: white;
+}
 
 .bawah{
     height: 105px;

@@ -10,7 +10,7 @@ a{
     text-decoration: none;
 }
 
-#container {
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -71,12 +71,32 @@ div.tab a,b{
     font-size: 12px;
 }
 
-.wishlist{
+.ProfileWishlist{
     display: flex;
+    align-items: center;
+    font-family: "Motiva Sans", Sans-serif;
+    position: relative;
+    top: 5;
+    left: 0;
 }
 
-.wishlist a{
+.ProfileWishlist img{
+    padding-right: 10px;
+}
+.ProfileWishlist h2{
     color: white;
+    font-size: 26px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    padding: 20px 10px;
+}
+
+.item{
+    width: 1000px;
+    height: 150px ;
+    background: linear-gradient(39deg, rgba(29,56,28,0.6) 0%, rgba(32,50,82,0.6) 50%, rgba(70,37,37,0.6) 100%);
+    display: flex;
+    align-items: center;
 }
 
 .bawah{
